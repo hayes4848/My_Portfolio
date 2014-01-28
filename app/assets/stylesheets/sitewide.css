@@ -1,0 +1,51 @@
+body{
+text-align: center;
+background-image: url("background_grey.jpeg");
+background-size: 100%;
+background-repeat: none;
+
+}
+
+.nav{
+font-size: 18px;
+color:green;
+text-align: center;
+display:inline-block;
+}
+
+li{
+	float:left;
+	text-align: center;
+	padding-right: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.particulars{
+	clear:both;
+	background-color: white;
+	width: 75%;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid gray 2px;
+	border-radius: 10px;
+	
+
+
+}
+.author{
+	width: 75px;
+	color: limegreen;
+	font-size: 20px;
+	border-bottom: 2px solid green;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+
+}
+
+footer{
+
+}
