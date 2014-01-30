@@ -1,9 +1,9 @@
 <nav>
-	<ul class="nav">
-		<li> <a href="posts#index">Posts</a></li>
-		<li>My Bootcamp</li>
-		<li>Home</li>
-		<li>About</li>
+	<ul class="nav_list">
+		
+		<li><%= link_to "Home", root_path, id: "home-link", class:"nav" %></li>
+		<li><%= link_to "About", "/about", class:"nav" %></li>
+		<li><%= link_to "Posts", "posts#index", class:"nav" %></li>
 
 	</ul>
 

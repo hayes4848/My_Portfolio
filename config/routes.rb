@@ -1,6 +1,12 @@
 MyPortfolio::Application.routes.draw do
+
+  get "/gallery", to: "static_pages#gallery", as: :gallery
+  get "/about", to: "static_pages#about", as:  :about
+
+ 
+
   resources :posts
-  root :to => 'posts#index'
+  root :to => 'static_pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

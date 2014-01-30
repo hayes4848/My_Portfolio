@@ -8,20 +8,21 @@
   
 </head>
 
-<header> <%= render 'layouts/navigation_bar' %> </header>
+<header><%= render 'layouts/navigation_bar' %></header>
 
 <body>
 
 <%= yield %>
 
-
-</body>
 <footer>
     <p>
         &copy;
     <%=Time.now.year %> "Andrew Hayes"
     </p>
+
 </footer>
+</body>
+
 
 
 </html>
